@@ -1,10 +1,9 @@
-.categories {
-    margin: 20px 0;
+.list-category {
     display: flex;
     flex-wrap: wrap;
 }
 
-.categories .category {
+.list-category .category-item {
     flex: 2;
     margin: 10px;
     min-width: 200px;
@@ -13,13 +12,15 @@
     justify-content: center;
     height: 100px;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     text-transform: uppercase;
     background: #1262B4;
     text-decoration: none;
     transition: all 500ms ease;
+    box-shadow: 1.5px 1.5px 1.5px rgba(180,180,180,0.9);
 }
 
-.categories .category:hover {
-    transform: scale(1.05);
+.list-category .category-item:hover {
+    transform: scale(1.03);
+    background: rgb(19, 91, 163);
 }
