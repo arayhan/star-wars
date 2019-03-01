@@ -1,0 +1,25 @@
+.categories {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories .category {
+    flex: 2;
+    margin: 10px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background: #1262B4;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+.categories .category:hover {
+    transform: scale(1.05);
+}

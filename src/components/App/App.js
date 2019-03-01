@@ -6,10 +6,11 @@ import 'whatwg-fetch';
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
+			<div className="App container-x">
 				<div className="App">
 					<header className="app-header">
 						<h1>Star Wars Series</h1>
+						<div className="background"></div>
 					</header>
 					<Routes />
 				</div>
