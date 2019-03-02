@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Categories.css';
+import './Home.css';
 
-class Categories extends Component {
+class Home extends Component {
     state = {
         listCategory: null,
         isLoading: true,
@@ -23,7 +23,6 @@ class Categories extends Component {
 
         if (!isLoading) {
             listCategoryKeys = Object.keys(listCategory);
-            console.log(listCategoryKeys);
         }
 
         return (
@@ -54,4 +53,4 @@ class Categories extends Component {
     }
 }
 
-export default Categories;
+export default Home;
